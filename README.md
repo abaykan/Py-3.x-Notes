@@ -5,6 +5,6 @@ Catatan python buatan tangan berbahasa indonesia. Silahkan di share jika tertari
 <p>Repo ini masih dalam pengembangan</p>
 
 ## What level are you ?
-[Notes : Level 1](README.md)
+[Notes : Level 1](Level1/README.md)
 ### Author
 <p>&copy; 2018 Clavin June</p>
