@@ -10,6 +10,10 @@ Python ini sangat luas, mulai dari aplikasi console, GUI, website, hacking, game
 
 Disini saya mencoba untuk memberikan catatan catatan yang berbau seperti tutorial, tentu saja karena sudah mulai agak susah mencari dokumentasi bahasa programming berbahasa Indonesia
 
-Di Python ini kalian menemukan beberapa opsi yang mungkin membuat bingung, contohnya saja untuk type data string ingin menggunakan ' atau " ? ingin menggunakan 'tab' atau 'space' ? Mungkin sebelum masuk ke chapter selanjutnya kalian harus menentukan secara konsisten :) Di dalam catatan catatan ini, saya menggunakan interpreter python untuk linux
+Di Python ini kalian menemukan beberapa opsi yang mungkin membuat bingung, contohnya saja untuk type data string ingin menggunakan ' atau " ? ingin menggunakan 'tab' atau 'space' ? Mungkin sebelum masuk ke chapter selanjutnya kalian harus menentukan secara konsisten :)
+
+Untuk memulai kalian bisa menggunakan 'IDLE' untuk interprete python di windows, tetapi di dalam catatan catatan ini, saya menggunakan interpreter python untuk linux.
+
+Yang perlu diperhatikan disini kita menggunakan Python 3.x(Versi) jadi jika kalian menggunakan python 2.x mungkin akan ada beberapa perbedaan syntax, dan saya sarankan untuk segera pindah ke versi yang lebih baru karena support untuk python 2.x segera [berakhir](https://pythonclock.org/).
 
 [Chapter 2 : Variabel](chapter2.md)
