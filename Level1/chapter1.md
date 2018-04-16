@@ -9,4 +9,5 @@
 Disini saya mencoba untuk memberikan catatan catatan yang berbau seperti tutorial, tentu saja karena sudah mulai agak susah mencari dokumentasi bahasa programming berbahasa Indonesia
 
 Jika berkenan silahkan diikuti catatan saya disini
+
 [Chapter 2 : Variabel](chapter2.md)
