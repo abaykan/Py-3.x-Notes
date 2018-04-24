@@ -59,5 +59,39 @@ Didalam python untuk type data karakter ini bisa diapit menggunakan ' atau "
 Tetapi agar terlihat konsisten, tolong dipilih salah satu :)
 
 Ada beberapa karakter spesial yang dapat mewakili white space seperti 'Enter' atau 'Tab'
+Enter diwakili oleh '\n', sedangkan tab diwakili oleh '\t'
+
+Bagaimana jika ingin menuliskan karakter yang lebih dari 1 baris ? bisa menggunakan 'Multi Line String' yang diapit oleh tiga buat ' atau "
+
+```python
+satu_karakter = 'c'
+strings = 'kumpulan karakter'
+contoh_byte = b'contoh'
+multi_line_strings = 'line 1 \n line 2'
+multi_line_strings = '''line 1
+line 2'''
+```
+#### Lain lain
+* Boolean: berisi True / False
+* None : type data kosong
+* Ellipsis: type data yang biasa digunakan untuk slicing
+```python
+boolean = True
+kosong = None
+contoh_ellipsis = ...
+```
+
+#### Komentar
+Untuk penulisan komentar di Python bisa menggunakan # untuk satu line
+bisa menggunakan ''' untuk multi line
+```python
+# Ini single line comment
+'''
+ Ini Multi Line Comments
+'''
+"""
+ Yang Ini Juga Multi Line Comments
+"""
+```
 
 [Chapter 3 : Struktur Data](chapter3.md)
