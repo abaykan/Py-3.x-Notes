@@ -15,8 +15,10 @@
 [Semantic](https://en.wikipedia.org/wiki/Semantics_(computer_science)) : Penamaan yang memiliki arti sebenarnya
 
 [Naming Convention](https://en.wikipedia.org/wiki/Naming_convention_(programming)) : Aturan penamaan yang sudah ditetapkan
+
+[White Space](https://simple.wikipedia.org/wiki/Whitespace_(computer_science)) : Karakter yang ada namun tidak terlihat bentuknya
 ### Variabel
-[Variabel](https://en.wikipedia.org/wiki/Variable_(computer_science)) di python akan mengetahui secara otomatis apa tipe datanya saat kita melakukan [deklarasi](https://en.wikipedia.org/wiki/Declaration_(computer_programming))
+[Variabel](https://en.wikipedia.org/wiki/Variable_(computer_science)) di python akan mengetahui secara otomatis apa tipe datanya saat kita melakukan deklarasi
 
 Untuk deklarasi Variabel python menggunakan syntax : 
 ```python
@@ -34,9 +36,10 @@ Agar deklarasi bisa lebih mudah dibaca, dibiasakan diantara '=' dan nama variabe
 #### Angka
 * int / long : bilangan bulat (-999999999999999999 - 9999999999999999999999)
 * float : bilangan decimal (0.0)
-* complex : bilangan complex matematika (angka biasa diakhii j) -> (0j ,1j, 2j)
+* complex : bilangan complex matematika (angka biasa diakhiri j) -> (0j ,1j, 2j)
 * hexa : bilangan hexadecimal (angka biasa diawali 0x) -> (0x1, 0x2, 0x02)
 * octal : bilangan octadecimal (angka biasa diawali 0o) -> (0o1, 0o7, 0o16)
+* biner : bilangan biner ( 0 / 1 diawali 0b ) -> (0b1, 0b0101)
 * infinite : bilangan yang mewakili infinite pada matematika ( float('inf') )
 ```python
 bilangan_bulat = 9999999
@@ -44,6 +47,17 @@ bilangan_decimal = 0.123413
 bilangan_complex = 0j
 hexa = 0x01
 octal = 0o1
+biner = 0b101101
 infinite = float('inf')
 ```
+#### karakter
+* char : 1 karakter apa saja ('a', 'b', 'c', "d")
+* string : banyak char ('ini string', "kumpulan karakter")
+* byte : representasi byte dari setiap karakter (string diawali dengan b) -> (b'ini byte', b'contoh')
+
+Didalam python untuk type data karakter ini bisa diapit menggunakan ' atau "
+Tetapi agar terlihat konsisten, tolong dipilih salah satu :)
+
+Ada beberapa karakter spesial yang dapat mewakili white space seperti 'Enter' atau 'Tab'
+
 [Chapter 3 : Struktur Data](chapter3.md)
