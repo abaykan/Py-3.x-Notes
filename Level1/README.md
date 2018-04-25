@@ -13,5 +13,5 @@
 * [Chapter 7 : Perulangan](chapter7.md)
 * [Chapter 8 : Penanganan Error](chapter8.md)
 * [Chapter 9 : Fungsi](chapter9.md)
-* [Chapter 10 : Operasi File](chapter10.md)
+* [Chapter 10 : Class](chapter10.md)
 * [Level Up!](../Level2/README.md)

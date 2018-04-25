@@ -4,7 +4,7 @@
 
 ## Chapter 2
 ### Perlu diketahui
-[Deklarasi](https://en.wikipedia.org/wiki/Declaration_(computer_programming)) : Pembuatan variabel tanpa / dengan adanya nilai awal 
+[Deklarasi](https://en.wikipedia.org/wiki/Declaration_(computer_programming)) : Pembuatan variabel kosong (*null* - *nil*) / variable bernilai
 
 [Inisialisasi](https://en.wikipedia.org/wiki/Initialization_(programming)) : Pengisian nilai awal pada sebuah variabel 
 
