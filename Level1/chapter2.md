@@ -81,6 +81,22 @@ kosong = None
 contoh_ellipsis = ...
 ```
 
+Untuk melihat type data apa yang dimiliki variabel di python kita bisa menggunakan 3 cara
+* type(var) : fungsi yang return nya adalah type data dari variabel
+* repr(var) : fungsi yang return nya adalah representasi dari sebuah variabel
+* isinstance(var, class) : fungsi yang return nya hasil check dari variabel dan type datanya
+```python
+angka = 1
+type(angka) # akan menghasilkan '<class 'int'>'
+type('test') # akan menghasilkan '<class 'str'>'
+
+repr(1) # akan menghasilkan '1' artinya integer
+repr('a') # akan menghasilkan "'a'" diapit oleh " artinya string
+
+isinstance(1, int) # akan menghasilkan True, karena 1 adalah integer
+isinstance(1.0, int) # akan menghasilkan False, karena 1.0 adalah float
+```
+
 #### Komentar
 Untuk penulisan komentar di Python bisa menggunakan # untuk satu line
 bisa menggunakan ''' untuk multi line
