@@ -61,7 +61,7 @@ Tetapi agar terlihat konsisten, tolong dipilih salah satu :)
 Ada beberapa karakter spesial yang dapat mewakili white space seperti 'Enter' atau 'Tab'
 Enter diwakili oleh '\n', sedangkan tab diwakili oleh '\t'
 
-Bagaimana jika ingin menuliskan karakter yang lebih dari 1 baris ? bisa menggunakan 'Multi Line String' yang diapit oleh tiga buat ' atau "
+Bagaimana jika ingin menuliskan karakter yang lebih dari 1 baris ? bisa menggunakan 'Multi Line String' yang diapit oleh tiga buah ' atau "
 
 ```python
 satu_karakter = 'c'
