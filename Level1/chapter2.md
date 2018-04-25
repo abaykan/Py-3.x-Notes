@@ -94,7 +94,7 @@ bisa menggunakan ''' untuk multi line
 """
 ```
 
-[<<< Chapter 2 : Variabel](chapter2.md)
+[<<< Chapter 1 : Perkenalan](chapter1.md)
 
 [>>> Chapter 3 : Struktur Data](chapter3.md)
 
