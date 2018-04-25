@@ -110,6 +110,78 @@ bisa menggunakan ''' untuk multi line
 """
 ```
 
+#### Input / Output
+Untuk mengeluarkan Output di python kita bisa menggunakan fungsi print(), sedangkan untuk menerima Input di python menggunakan fungsi input()
+```python
+print('Hello World!') # Akan menghasilkan Hello World! di Console
+tampung = input('Masukkan angka : ') # Akan menunggu user untuk menginput data, dan akan ditampung kedalam variabel 'tampung'
+```
+fungsi input() di python akan mengembalikan sebuah string, jadi jika misalkan kita melakukan ini
+```python
+angka = input('Masukkan angka : ')
+print(type(angka)) # akan menghasilkan string bukan integer
+```
+
+maka jika ingin menampung sebuah integer kita melakukan Type-Casting
+
+```python
+angka = int(input('Masukkan angka : ')) # ini artinya kita mengubah hasil inputan kita kedalam bentuk integer
+print(type(angka)) # akan menghasilkan integer
+```
+
+Jika kita ingin print value dari sebuah variabel, kita tinggal memasukan variabel sebagai parameter fungsi print
+```python
+angka = 1
+print(angka) # Akan menghasilkan 1
+```
+
+fungsi print() akan selalu memberikan enter dibelakang, jadi jika kita melakukan
+```python
+print('a')
+print('b')
+'''Hasil Outputnya akan menjadi
+a
+b
+'''
+```
+
+Jika ingin print tanpa memberikan 'enter'
+```python
+print('a', end='') # Kita tambahkan parameter ", end=''"
+print('b')
+'''Hasil Outputnya akan menjadi
+ab
+'''
+```
+
+Jika ingin print string dengan value dari variabel, kita bisa menggunakan formatting
+```python
+nama_saya = 'Clavin June'
+umur_saya = 20
+
+# Multi Line
+print(''' Nama Saya Adalah {}
+Umur Saya {}
+'''.format(nama_saya, umur_saya)) #Disini '{}' yang pertama kali kita buat akan diisi dengan nama_saya, dan selanjutnya diisi dengan umur_saya
+
+# Single Line
+print('nama saya adalah {}'.format(nama_saya)) #formatting seperti ini akan membuat code lebih rapi
+```
+
+#### Kesimpulan
+Pelajari Code dibawah ini :)
+```python
+'''
+Program ini adalah hasil latihan dari Chapter 2 Level 1 Python 3
+Author : Clavin June
+Ini adalah contoh multi line comment :)
+'''
+nama = input('Masukkan nama anda : ') # Deklarasi isi variabel nama dengan inputan user
+umur = int(input('Masukkan umur anda : ')) # Deklarasi isi variabel umur dengan inputan user dan di Type Casting kebentuk integer
+
+print('Nama saya adalah {} dan umur saya {}'.format(nama, umur)) # Print isi variabel dengan menggunakan formatting
+```
+
 [<<< Chapter 1 : Perkenalan](chapter1.md)
 
 [>>> Chapter 3 : Struktur Data](chapter3.md)
