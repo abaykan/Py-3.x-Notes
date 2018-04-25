@@ -16,5 +16,10 @@ Untuk memulai kalian bisa menggunakan 'IDLE' untuk interprete python di windows,
 
 Yang perlu diperhatikan disini kita menggunakan Python 3.x(Versi) jadi jika kalian menggunakan python 2.x mungkin akan ada beberapa perbedaan syntax, dan saya sarankan untuk segera pindah ke versi yang lebih baru karena support untuk python 2.x segera [berakhir](https://pythonclock.org/).
 
-[<<< Chapter 1 : Perkenalan](chapter1.md) [>>> Chapter 2 : Variabel](chapter2.md)
-[Root](../README.md) [Level 1](README.md)
+[<<< Chapter 1 : Perkenalan](chapter1.md)
+
+[>>> Chapter 2 : Variabel](chapter2.md)
+
+[Root](../README.md)
+
+[Level 1](README.md)
