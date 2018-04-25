@@ -27,9 +27,9 @@ $HOME
 	|
 	___Python Class
 		|	salve_terrarum.py
+		|	salve_terrarum_with-class.py3
 		|	main.py3
 		|	main2.py3
-		|	salve_terrarum_with-class.py3
 ```
 
 ## Nama File : salve_terrarum.py
@@ -74,12 +74,31 @@ print(salve_terrarum.salve) #Output Printing Syntax pada Deklarasi modul variabl
 ## Menjalankan main.py3
 ```
 python@test-notes:~/Python Class $ python3 main.py
-Hello
-World
-Hello
-World
-Salve Terrarum adalah Hello World pada Latin
+Hello 	#keluaran dari def hello()
+World 	#keluaran dari def world()
+Hello 	#keluaran dari def terrarum()
+World 	#keluaran dari def terrarum()
+Salve Terrarum adalah Hello World pada Latin 	#keluaran dari variabel salve
 python@test-notes:~/Python Class $
+
+```
+
+## Name File : salve_terrarum_with-class.py3
+```python
+from salve_terrarum import Helloworld
+
+deklrasi_helloworld = salve_terrarum.Helloworld("Ini Dari parameter salve_class", "Ini Dari parameter terrarum_class") #inisialisasi class Helloworld(self, salve_class, terrarum_class)
+deklrasi_helloworld.fungsisalve() #dari salve_terrarum(modules).Helloworld(class).fungsisalve(fungsi)
+deklrasi_helloworld.fungsiterrarum() #dari salve_terrarum(modules).Helloworld(class).fingsoterrarum(fungsi)
+```
+
+## Menjalankan salve_terrarum_with-class.py3
+```
+python@test-notes:~/Python Class $ python3 main.py
+# karena mempunyai 3 parameter dibagian self digunakan untuk utilitas dan access data pada object class, dibagian salve_class variabel = "Ini Dari parameter salve_class" , dibagian terrarum_class = "Ini Dari parameter terrarum_class"
+Ini Dari parameter salve_class # dari fungsi untuk memprint parameter salve_class
+Ini Dari parameter terrarum_class # dari fungsi untuk memprint parameter terrarum_class
+python@test-notes:~/Python Class $ 
 
 ```
 
@@ -95,20 +114,3 @@ difflib.get_close_matches("satu", ["satu", "atu", "dua", "3"]) #fungsi difflib g
 ['satu', 'atu']
 ```
 
-## Name File : salve_terrarum_with-class.py3
-```python
-from salve_terrarum import Helloworld
-
-deklrasi_helloworld = salve_terrarum.Helloworld("Ini Dari parameter salve_class", "Ini Dari parameter terrarum_class")
-deklrasi_helloworld.fungsisalve()
-deklrasi_helloworld.fungsiterrarum()
-```
-
-## Menjalankan salve_terrarum_with-class.py3
-```
-python@test-notes:~/Python Class $ python3 main.py
-Ini Dari parameter salve_class
-Ini Dari parameter terrarum_class
-python@test-notes:~/Python Class $ 
-
-```
