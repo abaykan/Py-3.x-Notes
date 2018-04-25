@@ -114,3 +114,8 @@ difflib.get_close_matches("satu", ["satu", "atu", "dua", "3"]) #fungsi difflib g
 ['satu', 'atu']
 ```
 
+[<<< Chapter 9 : Variabel](chapter9.md)
+
+[Root](../README.md)
+
+[Level 1](README.md)
