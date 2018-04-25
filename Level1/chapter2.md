@@ -85,6 +85,7 @@ Untuk melihat type data apa yang dimiliki variabel di python kita bisa menggunak
 * type(var) : fungsi yang return nya adalah type data dari variabel
 * repr(var) : fungsi yang return nya adalah representasi dari sebuah variabel
 * isinstance(var, class) : fungsi yang return nya hasil check dari variabel dan type datanya
+
 ```python
 angka = 1
 type(angka) # akan menghasilkan '<class 'int'>'
