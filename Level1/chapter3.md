@@ -2,7 +2,7 @@
 
 # Py-3.x-Notes: Level 1
 
-## Chapter 2
+## Chapter 3
 ### Perlu diketahui
 [List](https://www.tutorialspoint.com/python/python_lists.htm) : Struktur Data yang dapat menyimpan banyak value
 
