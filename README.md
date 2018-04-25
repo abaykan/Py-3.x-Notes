@@ -5,7 +5,7 @@ Catatan python buatan tangan berbahasa indonesia. Silahkan di share jika tertari
 <p>Repo ini masih dalam pengembangan</p>
 
 ## Level ?
-[Notes : Level 1](Level1/README.md)
+[Notes : Level 1 What is Python?](Level1/README.md)
 ### Penulis
 
 &copy; 2018 Clavin June &nbsp;
