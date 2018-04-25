@@ -13,7 +13,7 @@
 [Dictionary](https://www.tutorialspoint.com/python/python_dictionary.htm) : Struktur Data yang isinya berdasarkan Key dan Value
 
 ### Struktur Data
-[Struktur Data](https://en.wikipedia.org/wiki/Data_structure) di python ini diperlukan untuk menyimpan data yang banyak
+[Struktur Data](https://en.wikipedia.org/wiki/Data_structure) : di python ini diperlukan untuk menyimpan data yang banyak
 
 ```python
 # Daripada kita membuat banyak variabel, misal

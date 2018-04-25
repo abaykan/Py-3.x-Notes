@@ -44,6 +44,18 @@ def terrarum(): #Definisi Fungsi Terrarum()
 	return hello(), world()
 
 salve = "Salve Terrarum adalah Hello World pada Latin" #Definisi global variabel salve salve_terrarum.py3
+
+class Helloworld:
+    def __init__(self, salve_class, terrarum_class):
+        self.salve_class = salve_class
+        self.terrarum_class = terrarum_class
+
+    def fungsisalve(self):
+        print(self.salve_class)
+
+    def fungsiterrarum(self):
+        print(self.terrarum_class)
+
 ```
 
 ## Nama File : main.py3
@@ -71,9 +83,32 @@ python@test-notes:~/Python Class $
 
 ```
 
-## Menajalankan *Standard-Library* main2.py3
+## Nama File : main2.py3
 ```python
-import difflib #difflib adalah Standard-Library Python yang digunakan untuk memungkinkan kesamaan string pada lebih dari 3 huruf String | difflib adalah implentasi dari program gnu diff linux <http://www.gnu.org/software/diffutils/>
-difflib.get_close_matches("satu", ["satu", "atu", "dua", "3"])
+import difflib #difflib adalah Standard-Library Python yang digunakan untuk memungkinkan kesamaan string pada lebih dari 3 huruf String
+#difflib adalah implentasi dari program gnu diff linux <http://www.gnu.org/software/diffutils/>
+difflib.get_close_matches("satu", ["satu", "atu", "dua", "3"]) #fungsi difflib get_close_matches dari string "satu" akan di mungkinkan sama pada list
 ```
 
+## Menjalankan main2.py3
+```python
+['satu', 'atu']
+```
+
+## Name File : salve_terrarum_with-class.py3
+```python
+from salve_terrarum import Helloworld
+
+deklrasi_helloworld = salve_terrarum.Helloworld("Ini Dari parameter salve_class", "Ini Dari parameter terrarum_class")
+deklrasi_helloworld.fungsisalve()
+deklrasi_helloworld.fungsiterrarum()
+```
+
+## Menjalankan salve_terrarum_with-class.py3
+```
+python@test-notes:~/Python Class $ python3 main.py
+Ini Dari parameter salve_class
+Ini Dari parameter terrarum_class
+python@test-notes:~/Python Class $ 
+
+```
